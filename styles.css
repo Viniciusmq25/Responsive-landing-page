@@ -1,0 +1,222 @@
+
+    body{
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    
+     /* color: #3e52a3;  */
+
+    .principal{
+        background-image: linear-gradient(#7224ad, #4946fa);
+        display: grid;
+        border-radius: 0 0 30px 30px;
+        place-items: center;
+        
+    }
+
+    .principal-titulo { 
+        padding-top: 1.5em;
+        font-size: 1.2rem; 
+        text-align: center; 
+        color: rgba(255, 255, 255, 0.562);
+    }
+
+    .principal-pontuaçao{ 
+        margin: 2em 0;
+        width: 70px;
+        padding: 2em;
+        background-image: linear-gradient( #3837a5,#a83afd7a);
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .principal-nota{
+        font-weight: 700;
+        font-size: 3rem;
+        color: white;
+    }
+
+    .principal-notamax{
+        color: rgba(255, 255, 255, 0.445);
+        margin-top: .5em 0;
+    }
+
+    .principal-opiniao{
+        font-size: 1.3rem;
+        color: rgba(255, 255, 255, 0.938);
+    }
+
+    .principal-subtitulo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.616);
+        margin: 1em 3em;
+        padding-bottom: 2em;
+    }
+
+    .summary{
+        margin: 2em;
+    }
+
+    .summary-h2{
+        font-size: 1.3rem;
+        margin-left: .5em;
+        font-weight: 700;
+        margin-bottom: 1.5em;
+    }
+
+    .summary-titulo{
+        font-weight: 600;
+        font-size: .9rem;
+    }
+
+    .reaction, .Memory, .Verbal, .visual{
+        padding: 1em;
+        border:  solid 1px rgba(128, 128, 128, 0.158);
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-position: 1em;
+    }
+
+    .texto-memory,.texto-reaction,.texto-verbal,.texto-visual{
+        margin-left: 2em;
+    }
+
+    .reaction{
+        background-color: rgba(255, 0, 0, 0.13);
+        background-image: url("./assets/images/icon-reaction.svg");
+    }
+
+    .texto-reaction{
+        color: red;
+    }
+
+    .Memory{
+        background-color: rgba(255, 255, 0, 0.151);
+        background-image: url("./assets/images/icon-memory.svg");
+    }
+
+    .texto-memory{
+        color: rgb(255, 187, 0);
+    }
+
+    .Verbal{
+        background-color: rgba(0, 214, 0, 0.137);
+        background-image: url("./assets/images/icon-verbal.svg");
+    }
+
+    .texto-verbal{
+        color: rgb(0, 190, 127);
+    }
+
+    .visual{
+        background-color: rgba(0, 0, 255, 0.137);
+        background-image: url("./assets/images/icon-visual.svg");
+    }
+
+    .texto-visual{
+        color: blue;
+    }
+
+    .summary-flex{
+        margin: 1em .5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .summary-nota{
+        font-weight: 700;
+    }
+
+    .summary-nota strong{
+        color: rgba(0, 0, 0, 0.425);
+    }
+
+    .button{
+        text-align: center;
+    }
+
+    .button-item{
+        border-radius: 25px;
+        border-style: none;
+        background-color: #41408d;
+        color: white;
+        padding: 1em 0;
+        width: 95%;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .button-item:active{
+        background-image: linear-gradient( #3837a5,#a83afdad);;
+    }
+
+    .attribution{
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .frontendmentor-link, .name-link{
+        text-decoration: none;
+        color: #41408d;
+    }
+
+
+    @media screen and (min-width: 1024px){
+
+        html{
+            height: 100%;
+        }
+        
+        body{
+            background-color: rgb(218, 218, 218);
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .content{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+            
+    }
+    .principal{
+        border-radius: 30px;
+        width: 25%;
+        height: 60%;
+        margin-right: -4em;
+        position: relative;
+    }
+
+    .summary{
+        background-color: white;
+        border-radius: 0 30px 30px 0;
+        -webkit-box-shadow: 15px 15px 31px #b8bed0, -15px -15px 31px #eaf2ff;
+        box-shadow: 15px 15px 31px #b8bed0, -15px -15px 31px #eaf2ff;
+        padding: 1vh 2em 0 0;
+        height: 60%;
+        padding: 0 1em 0 3em;
+    }
+
+    .summary-h2{
+        margin-top: 3em;
+
+    }
+
+    .summary-flex{
+        width: 30vh;
+    }
+
+    .button{
+        margin-top: 4.5vh;
+    }
+
+}
+
+
+    
+   
