@@ -1,5 +1,7 @@
 # Frontend Mentor - Results summary component
 
+LINK: https://viniciusmq25.github.io/Responsive-landing-page/
+
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
